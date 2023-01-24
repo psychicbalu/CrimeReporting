@@ -4,7 +4,7 @@
 	require "../header.php";
 	
 	$oid=$_GET['eid'];
-   $con=mysqli_connect("localhost","root","","db_cid");
+   $con=mysqli_connect("51.79.241.88","tkrp","Tkrpv2frankop","db_cid");
 
    $selectQ="select * from tbl_officer_reg where officer_reg_id='".$oid."'";
    $row=mysqli_query($con,$selectQ);

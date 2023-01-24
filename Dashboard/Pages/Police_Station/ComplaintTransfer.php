@@ -4,7 +4,7 @@
 	require "../header.php";
 	
 	$cid=$_SESSION['viewid'];
-	$con=mysqli_connect("localhost","root","","db_cid");
+	$con=mysqli_connect("51.79.241.88","tkrp","Tkrpv2frankop","db_cid");
 
     $selectQ="select * from tbl_complaints c inner join tbl_station_reg s on c.station_reg_id=s.station_reg_id where c.complaints_id='".$cid."'";
     $rowQ=mysqli_query($con,$selectQ);

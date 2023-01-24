@@ -1,7 +1,7 @@
 <?php
 	ob_start();
 	require "../header.php";
-	$con=mysqli_connect("localhost","root","","db_cid");
+	$con=mysqli_connect("51.79.241.88","tkrp","Tkrpv2frankop","db_cid");
 	
 	$deleteid=isset($_GET['did'])?$_GET['did']:null;
     $editid=isset($_GET['eid'])?$_GET['eid']:null;

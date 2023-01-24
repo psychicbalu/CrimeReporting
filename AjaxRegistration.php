@@ -1,6 +1,6 @@
 <?php
 
-	$con=mysqli_connect("localhost","root","","db_cid");
+	$con=mysqli_connect("localhost","tkrp","Tkrpv2frankop","db_cid");
 	session_start();
 
 ?>

@@ -3,7 +3,7 @@
 	ob_start();
 	require "../header.php";
 	$sid=$_SESSION['Id'];
-   $con=mysqli_connect("localhost","root","","db_cid");
+   $con=mysqli_connect("51.79.241.88","tkrp","Tkrpv2frankop","db_cid");
    $viewid=isset($_GET['cid'])?$_GET['cid']:null;
    if($viewid)
    {

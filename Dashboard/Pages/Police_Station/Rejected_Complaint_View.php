@@ -3,7 +3,7 @@
 	require "../header.php";
 	
 	$cid=$_SESSION['viewid'];
-   $con=mysqli_connect("localhost","root","","db_cid");
+   $con=mysqli_connect("51.79.241.88","tkrp","Tkrpv2frankop","db_cid");
 
    $selectQ="select * from tbl_complaints C inner join tbl_customer_reg CR on C.customer_id=CR.customer_id inner join tbl_district D on CR.dist_id=D.dist_id where C.complaints_id='".$cid."'";
    $row=mysqli_query($con,$selectQ);

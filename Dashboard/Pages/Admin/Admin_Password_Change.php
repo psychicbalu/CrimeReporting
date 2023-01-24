@@ -4,7 +4,7 @@
 	require "../header.php";
 	
 	$aid=$_SESSION['Id'];
-   $con=mysqli_connect("localhost","root","","db_cid");
+   $con=mysqli_connect("51.79.241.88","tkrp","Tkrpv2frankop","db_cid");
   if(isset($_POST['btnsubmit']))
    {
      $cpasswd=$_POST['txtoldpassword'];
